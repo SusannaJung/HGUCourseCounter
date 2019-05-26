@@ -2,12 +2,12 @@ package edu.handong.analysise.utils;
 
 public class NotEnoughArgumnetException extends Exception {
 	
-	public NotEnoughArgumentException()
+	public NotEnoughArgumnetException()
 	{
 		super("No CLI argument Exception! Please put a file path.");
 	}		
 
-	public NotEnoughArgumentException(String message)
+	public NotEnoughArgumnetException(String message)
 	{
 		super(message);
 	}
